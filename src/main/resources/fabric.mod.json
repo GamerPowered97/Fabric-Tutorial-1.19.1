@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "jadepearl",
+  "version": "${version}",
+
+  "name": "Jade Pearl",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "GamerPowered97"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gamerpowered97.jadepearl.JadePearl"
+    ],
+    "client": [
+      "net.gamerpowered97.jadepearl.JadePearlClient"
+    ]
+  },
+  "mixins": [
+    "jadepearl.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
