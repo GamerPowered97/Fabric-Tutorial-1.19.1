@@ -11,6 +11,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.JADE_PEARL)));
     public static final Item JADE_PEARL = registerItem("jade_pearl",
             new Item(new FabricItemSettings().group(ModItemGroup.JADE_PEARL)));
+    public static final Item JADE_INGOT = registerItem("jade_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.JADE_PEARL)));
 
 
     private static Item registerItem(String name, Item item) {
@@ -18,6 +20,6 @@ public class ModItems {
     }
 
     public static void  registerModItems() {
-        JadePearl.LOGGER.debug("Registering Mod Items for" +JadePearl.MOD_ID);
+        JadePearl.LOGGER.debug("Registering Mod Items for" + JadePearl.MOD_ID);
     }
 }

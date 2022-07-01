@@ -3,10 +3,11 @@
   "id": "jadepearl",
   "version": "${version}",
 
-  "name": "Jade Pearl",
+  "name": "The Jade Pearl Mod",
   "description": "Adds jade blocks and items with ores too!",
   "authors": [
-    "GamerPowered97"
+    "GamerPowered97",
+    "My friend Deemo"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,7 +15,7 @@
   },
 
   "license": "CC0 license",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/jadepearl/jade_ingot.png",
 
   "environment": "*",
   "entrypoints": {

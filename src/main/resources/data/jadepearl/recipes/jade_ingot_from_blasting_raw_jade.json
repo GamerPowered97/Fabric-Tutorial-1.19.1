@@ -2,9 +2,9 @@
   "type": "minecraft:blasting",
   "cookingtime": 100,
   "experience": 2.5,
-  "group": "jade_pearl",
+  "group": "jade_ingot",
   "ingredient": {
     "item": "jadepearl:raw_jade"
   },
-  "result": "jadepearl:jade_pearl"
+  "result": "jadepearl:jade_ingot"
 }
