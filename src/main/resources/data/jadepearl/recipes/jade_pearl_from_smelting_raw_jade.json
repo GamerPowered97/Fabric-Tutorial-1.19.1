@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 130,
+  "experience": 2.5,
+  "group": "jade_pearl",
+  "ingredient": {
+    "item": "jadepearl:raw_jade"
+  },
+  "result": "jadepearl:jade_pearl"
+}

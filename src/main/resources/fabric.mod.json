@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Jade Pearl",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Adds jade blocks and items with ores too!",
   "authors": [
     "GamerPowered97"
   ],
@@ -13,7 +13,7 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "MIT License",
+  "license": "CC0 license",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
