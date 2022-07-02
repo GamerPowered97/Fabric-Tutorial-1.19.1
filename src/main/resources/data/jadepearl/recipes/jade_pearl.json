@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:ender_pearl"
+    },
+    "i": {
+      "item": "jadepearl:jade_ingot"
+    }
+  },
+  "pattern": [
+    " i ",
+    "iIi",
+    " i "
+  ],
+  "result": {
+    "item": "jadepearl:jade_pearl"
+  }
+}
